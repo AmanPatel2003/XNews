@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>4ic_transparencia</title>
+    <desc>Created with Sketch.</desc>
+    <g id="4ic_transparencia" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7" transform="translate(13.000000, 22.000000)" fill-rule="nonzero" stroke="#39ff14">
+            <g id="visibility-button" transform="translate(26.000000, 17.500000) scale(-1, -1) translate(-26.000000, -17.500000) " stroke-width="2.5">
+                <path d="M26,0 C14.1818182,0 4.01818182,7.23333333 0,17.5 C4.01818182,27.7666667 14.1818182,35 26,35 C37.8181818,35 47.9818182,27.7666667 52,17.5 C47.9818182,7.23333333 37.8181818,0 26,0 Z" id="Shape"></path>
+            </g>
+            <path d="M25.7801268,13.0344828 C23.2570825,13.0344828 21.3276956,14.9172414 21.3276956,17.3793103 C21.3276956,19.8413793 23.2570825,21.7241379 25.7801268,21.7241379 C28.3031712,21.7241379 30.2325581,19.8413793 30.2325581,17.3793103 C30.2325581,14.9172414 28.3031712,13.0344828 25.7801268,13.0344828 Z" id="Path" stroke-width="3" fill="#39ff14" transform="translate(25.780127, 17.379310) scale(-1, -1) translate(-25.780127, -17.379310) "></path>
+            <path d="M25.7801268,8.20689655 C20.5159972,8.20689655 16.4904863,12.1816092 16.4904863,17.3793103 C16.4904863,22.5770115 20.5159972,26.5517241 25.7801268,26.5517241 C31.0442565,26.5517241 35.0697674,22.5770115 35.0697674,17.3793103 C35.0697674,12.1816092 31.0442565,8.20689655 25.7801268,8.20689655 Z" id="Path-Copy" stroke-width="2.5" transform="translate(25.780127, 17.379310) scale(-1, -1) translate(-25.780127, -17.379310) "></path>
+        </g>
+    </g>
+</svg>

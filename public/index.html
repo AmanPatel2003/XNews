@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>XCheck</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Space+Mono"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat|Space+Mono"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/0.9.3/hamburgers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link async="" rel="stylesheet" href="assets\vendor-css\vendor.min.css" />
+    <link rel="stylesheet" href="assets\css\styles.min.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC6DXWC0H6"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-XC6DXWC0H6');
+      </script>
+  </head>
+  <body class="g-overflow-x-hidden">
+        <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5f86b7cc2901b92076934803/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+      <!--End of Tawk.to Script-->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.js"></script>
+  <script src="assets\vendor-js\plugins.min.js"></script>
+  <script src="assets\js\components.js"></script>
+  <script async="" src="assets\js\main.min.js"></script>
+  <script>
+    var tpj = jQuery,
+      promoSlider;
+
+    tpj(document).on("ready", function () {
+      if (tpj("#promoSlider").revolution == undefined) {
+        revslider_showDoubleJqueryError("#promoSlider");
+      } else {
+        promoSlider = tpj("#promoSlider")
+          .show()
+          .revolution({
+            sliderType: "standard",
+            jsFileLocation: "revolution/js/",
+            sliderLayout: "fullscreen",
+            dottedOverlay: "none",
+            delay: 9000,
+            navigation: {
+              keyboardNavigation: "off",
+              keyboard_direction: "horizontal",
+              mouseScrollNavigation: "off",
+              onHoverStop: "off",
+              touch: {
+                touchenabled: "on",
+                swipe_threshold: 75,
+                swipe_min_touches: 1,
+                swipe_direction: "horizontal",
+                drag_block_vertical: false,
+              },
+              bullets: {
+                enable: true,
+                hide_onmobile: true,
+                hide_under: 960,
+                style: "zeus",
+                hide_onleave: false,
+                direction: "horizontal",
+                h_align: "right",
+                v_align: "bottom",
+                h_offset: 80,
+                v_offset: 50,
+                space: 5,
+              },
+            },
+            responsiveLevels: [1240, 1025, 769, 480],
+            gridwidth: [1240, 1025, 769, 480],
+            gridheight: [868, 768, 960, 720],
+            lazyType: "none",
+            parallax: {
+              type: "mouse",
+              origo: "slidercenter",
+              speed: 2000,
+              levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
+              disable_onmobile: "on",
+            },
+            shadow: 0,
+            spinner: "off",
+            stopLoop: "on",
+            stopAfterLoops: 0,
+            stopAtSlide: 1,
+            shuffle: "off",
+            autoHeight: "off",
+            fullScreenAlignForce: "off",
+            fullScreenOffset: "60px",
+            disableProgressBar: "on",
+            hideThumbsOnMobile: "off",
+            hideSliderAtLimit: 0,
+            hideCaptionAtLimit: 0,
+            hideAllCaptionAtLilmit: 0,
+            debugMode: false,
+            fallbacks: {
+              simplifyAll: "off",
+              nextSlideOnWindowFocus: "off",
+              disableFocusListener: false,
+            },
+          });
+
+        var newCall = new Object(),
+          cslide;
+
+        newCall.callback = function () {
+          var proc = promoSlider.revgetparallaxproc(),
+            fade = 1 + proc,
+            scale = 1 + Math.abs(proc) / 10;
+
+          punchgs.TweenLite.set(
+            promoSlider.find(".slotholder, .rs-background-video-layer"),
+            {
+              opacity: fade,
+              scale: scale,
+            }
+          );
+        };
+
+        newCall.inmodule = "parallax";
+        newCall.atposition = "start";
+
+        promoSlider.bind("revolution.slide.onloaded", function (e) {
+          promoSlider.revaddcallback(newCall);
+        });
+      }
+    });
+
+    (function ($) {
+      "use strict";
+      $(document).ready(function () {
+        // Initialization of HSHamburgers helper
+        $.HSCore.helpers.HSHamburgers.init(".hamburger");
+
+        // Initialization of HSNavigation component
+        $.HSCore.components.HSNavigation.init($(".js-navigation"));
+
+        // Initialization of masonry.js
+        $(".masonry-grid")
+          .imagesLoaded()
+          .then(function () {
+            $(".masonry-grid").masonry({
+              // options
+              columnWidth: ".masonry-grid-sizer",
+              itemSelector: ".masonry-grid-item",
+              percentPosition: true,
+            });
+          });
+        $.HSCore.components.HSCarousel.init(".js-carousel");
+      });
+    })(jQuery);
+
+    (function ($) {
+      "use strict";
+      $(document).ready(function () {
+        // Initialization of HSMegaMenu plugin
+        $(".js-mega-menu").HSMegaMenu({
+          event: "hover",
+          pageContainer: $(".container"),
+          breakpoint: 991,
+        });
+      });
+    })(jQuery);
+
+    (function ($) {
+      "use strict";
+      $(document).on("ready", function () {
+        // Header
+        $.HSCore.components.HSHeader.init($("#js-header"));
+        $.HSCore.helpers.HSHamburgers.init(".hamburger");
+
+        // Initialization of HSDropdown component
+        $.HSCore.components.HSDropdown.init($("[data-dropdown-target]"), {
+          afterOpen: function () {
+            $(this).find('input[type="search"]').focus();
+          },
+        });
+
+        // Initialization of masonry.js
+        $(".masonry-grid")
+          .imagesLoaded()
+          .then(function () {
+            $(".masonry-grid").masonry({
+              // options
+              columnWidth: ".masonry-grid-sizer",
+              itemSelector: ".masonry-grid-item",
+              percentPosition: true,
+            });
+          });
+      });
+    })(jQuery);
+
+    $(document).on("ready", function () {
+      // Initialization of HSScrollNav
+      $.HSCore.components.HSScrollNav.init($("#js-scroll-nav"), {
+        duration: 700,
+        easing: "easeOutExpo",
+      });
+
+      // Initialization of Hamburgers
+      $.HSCore.helpers.HSHamburgers.init(".hamburger");
+
+      // Initialization of HSHeader component
+      $.HSCore.components.HSHeader.init($("#js-header"));
+
+      // Initialization of tabs
+      $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+      // Initialization of progressbar
+      var horizontalProgressBars = $.HSCore.components.HSProgressBar.init(
+        ".js-hr-progress-bar",
+        {
+          direction: "horizontal",
+          indicatorSelector: ".js-hr-progress-bar-indicator",
+        }
+      );
+
+      $("#carouselCus1").slick(
+        "setOption",
+        "responsive",
+        [
+          {
+            breakpoint: 1350,
+            settings: {
+              slidesToShow: 4,
+            },
+          },
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 4,
+            },
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 4,
+            },
+          },
+          {
+            breakpoint: 670,
+            settings: {
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 500,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+        true
+      );
+    });
+
+    $(window).on("resize", function () {
+      setTimeout(function () {
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+      }, 200);
+    });
+  </script>
+  <script>
+    (function (w, i, d, g, e, t, s) {
+      w[d] = w[d] || [];
+      t = i.createElement(g);
+      t.async = 1;
+      t.src = e;
+      s = i.getElementsByTagName(g)[0];
+      s.parentNode.insertBefore(t, s);
+    })(
+      window,
+      document,
+      "_gscq",
+      "script",
+      "//widgets.getsitecontrol.com/164059/script.js"
+    );
+  </script>
+</html>

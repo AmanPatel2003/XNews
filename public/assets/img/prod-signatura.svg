@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="246px" viewBox="0 0 132 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>prod-xchcek</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-509.000000, -1029.000000)">
+            <g id="xchcek" transform="translate(157.000000, 984.000000)">
+                <g id="prod-xchcek" transform="translate(306.000000, 30.000000)">
+                    <g id="Group-2" transform="translate(47.000000, 247.000000)" stroke="#70C6FF" stroke-width="1.75">
+                        <path d="M13,0 L2,13" id="Path-13"></path>
+                        <path d="M0,2 L15,13" id="Path-14"></path>
+                    </g>
+                    <g id="ic_industria_contratos" transform="translate(119.501046, 119.501046) rotate(-45.000000) translate(-119.501046, -119.501046) translate(35.001046, 35.001046)" fill="#1700FF" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="3.5">
+                        <path d="M144.972772,0 L139.703353,0 L21.2152479,117.864529 L21.2152479,123.106203 L22.2588134,124.144274 L1.83233018,136.137257 L0,139.334151 L0.0346804242,165.068388 L3.72599599,168.769634 L28.468329,169 L31.6921754,167.21153 L44.4502723,146.219461 L45.2419031,147.006924 L50.5116079,147.006924 L151.883348,46.1686394 L160.24133,54.4823302 L130.291774,84.2741961 L135.560906,89.5158698 L168.145314,57.1033096 L168.145314,51.8616359 L157.152766,40.9269656 L169,29.1421093 L169,23.9004356 L144.972772,0 Z M26.2182455,162 L7.0273102,161.823579 L7,141.882612 L27.5218718,130 L39,141.259866 L26.2182455,162 Z M47.6785929,139 L46.1650689,137.486761 L30.8009309,122.122623 L29,120.321407 L127.321693,22 L146,40.6785929 L47.6785929,139 Z M151.777514,36 L133,17.222294 L142.222773,8 L161,26.7774191 L151.777514,36 Z" id="Shape"></path>
+                    </g>
+                    <path d="M70,256.200231 L178,256.200231" id="Path-12-Copy-22" stroke="#70C6FF" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

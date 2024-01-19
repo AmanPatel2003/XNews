@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>6ic_soluciones_compliance</title>
+    <desc>Created with Sketch.</desc>
+    <g id="6ic_soluciones_compliance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-9" transform="translate(7.000000, 7.000000)">
+            <polyline id="Rectangle" stroke="#39ff14" stroke-width="2.75" stroke-linecap="square" stroke-linejoin="bevel" transform="translate(23.725914, 27.183102) scale(-1, -1) translate(-23.725914, -27.183102) " points="15.3053429 0.399948309 44.8492207 0.399948309 47.4518272 3.66202193 47.4518272 38.2798311 47.4518272 50.7791102 44.8492207 53.641119 25.8228415 53.966256 2.41865051 53.9519253 1.13686838e-13 50.7791102 1.13686838e-13 26.6804259"></polyline>
+            <rect id="Rectangle" stroke="#39ff14" stroke-width="2.75" x="31.375" y="29.375" width="32.2267442" height="32.45" rx="16.1133721"></rect>
+            <polygon id="ic_check-copy-6" fill="#39ff14" points="45.5551562 49.1560028 40.8206842 43.8787624 39 45.9080202 44.6448637 52.1998896 46.4654488 52.2 56.4883721 41.0294786 54.667886 39"></polygon>
+            <rect id="Rectangle" fill="#39ff14" x="7" y="7" width="34" height="3"></rect>
+            <rect id="Rectangle-Copy-2" fill="#39ff14" x="7" y="14" width="34" height="3"></rect>
+            <rect id="Rectangle-Copy-4" fill="#39ff14" x="7" y="21" width="34" height="3"></rect>
+        </g>
+    </g>
+</svg>

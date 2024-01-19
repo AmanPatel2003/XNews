@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="..\..\..\9155a8f3d87e6e39e32b3d912f8cc58f.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="..\..\..\b4e76e14c270b3e21838da519ee90839.png"
+    />
+    <title>xchcek</title>
+    <style>
+      body {
+        background: #f5f8fa;
+      }
+      .spinner {
+        margin: 100px auto;
+        width: 70px;
+        text-align: center;
+      }
+      .spinner.small {
+        margin: 60px auto;
+      }
+      .spinner > div {
+        width: 18px;
+        height: 18px;
+        margin: 0 1px;
+        background-color: #818fa4;
+        border-radius: 100%;
+        display: inline-block;
+        -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+      }
+      .spinner .bounce1 {
+        -webkit-animation-delay: -0.32s;
+        animation-delay: -0.32s;
+      }
+      .spinner .bounce2 {
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+      }
+      @-webkit-keyframes sk-bouncedelay {
+        0%,
+        80%,
+        100% {
+          -webkit-transform: scale(0);
+        }
+        40% {
+          -webkit-transform: scale(1);
+        }
+      }
+      @keyframes sk-bouncedelay {
+        0%,
+        80%,
+        100% {
+          -webkit-transform: scale(0);
+          transform: scale(0);
+        }
+        40% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="preloader" class="preloader">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script>
+
+    <script src="..\..\..\styles.78f7b5562f99f32340d6.js"></script>
+    <script src="..\..\..\app.78f7b5562f99f32340d6.js"></script>
+  </body>
+</html>
