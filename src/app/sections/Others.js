@@ -13,12 +13,12 @@ const Others = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      if (variableValue < 10000) {
+      if (variableValue < 1000000) {
         generateRandomNumber();
       } else {
         clearInterval(intervalId);
       }
-    }, 600);
+    }, 47000);
 
     return () => {
       clearInterval(intervalId);
