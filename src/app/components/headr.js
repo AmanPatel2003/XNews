@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
   const [isDropdownOpen1, setDropdownOpen1] = useState(false);
@@ -62,20 +63,20 @@ const Header = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full transition-all duration-300 bg-white shadow-md font-monoSpace ">
+      <nav className="fixed top-0 box-border left-0 w-full transition-all duration-300 bg-white shadow-md font-monoSpace ">
         <div
-          className={`flex justify-between items-center md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto  ${
+          className={`flex justify-between items-center px-[35px] md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto  ${
             scrolling ? "py-[10px]" : "py-[20px]"
           }`}
         >
-          <a href="" className="">
+          <a href="/" className="">
             <img src="/images/xcheck.png" alt="" className="h-[35px]" />
           </a>
           <div className="text-[13px] font-light">
-            <div className="">
-              <ul className="flex">
+            <div className=" hidden lg:block">
+              <ul className="flex h-[25px] ">
                 <li
-                  className=" flex items-center mx-[25px]"
+                  className=" flex items-center mx-[25px]  "
                   onMouseEnter={handleMouseEnter1}
                   onMouseLeave={handleMouseLeave1}
                 >
@@ -84,7 +85,7 @@ const Header = () => {
                   {isDropdownOpen1 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[170px]"
+                      className="absolute bg-white  p-4 shadow-md mt-[165px]"
                       onMouseLeave={handleMouseLeave11}
                     >
                       <li className="">
@@ -133,7 +134,7 @@ const Header = () => {
                   {isDropdownOpen2 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[170px]"
+                      className="absolute bg-white  p-4 shadow-md mt-[165px]"
                       onMouseLeave={handleMouseLeave22}
                     >
                       <li className="">
@@ -228,6 +229,11 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
+            </div>
+            <div className="lg:hidden">
+              <button className="text-4xl flex items-center ">
+                <RxHamburgerMenu  />
+              </button>
             </div>
           </div>
         </div>
