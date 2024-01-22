@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -11,7 +12,7 @@ const page = () => {
           <section className="md:px-[15px]">
             <div className="md:flex  items-center">
               <div className="md:w-[45%]">
-                <img
+                <Image
                   src="https://xcheck.org/assets/img/compliance/dummy.png"
                   alt=""
                   className="w-full"
