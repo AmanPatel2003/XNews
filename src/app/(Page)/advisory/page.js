@@ -11,18 +11,22 @@ const page = () => {
           </div>
           <section className="md:px-[15px]">
             <div className="md:flex  items-center">
-              <div className="md:w-[45%]">
+              <div className="md:w-[45%] ">
                 <Image
                   src="https://xcheck.org/assets/img/compliance/dummy.png"
                   alt=""
-                  className="w-full"
+                  className="m-auto"
+                  width={336}
+                  height={400}
                 />
               </div>
               <div className="px-[30px] pt-[50px] md:pt-[0px]">
-                <h1 className="mb-[40px] font-monoSpace text-[28px]">We are looking for Advisor</h1>
+                <h1 className="mb-[40px] font-monoSpace text-[28px]">
+                  We are looking for Advisor
+                </h1>
                 <p className=" mb-[14px] font-montserrat text-[#7d7d7d]">
-                  Love what we do? If you are interested in helping us protect
-                  journalism then please, express your interest at
+                  Love what we do? If you &apos; are interested in helping us
+                  protect journalism then please express your interest at
                   gawrav@xcheck.org
                 </p>
                 <p className="mb-[20px]">
