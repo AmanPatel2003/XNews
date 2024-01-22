@@ -65,7 +65,7 @@ const Header = () => {
     <>
       <nav className="fixed top-0 box-border left-0 w-full transition-all duration-300 bg-white shadow-md font-monoSpace ">
         <div
-          className={`flex justify-between items-center px-[35px] md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto  ${
+          className={`flex justify-between items-center px-[14px] md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto  ${
             scrolling ? "py-[10px]" : "py-[20px]"
           }`}
         >

@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <>
       <section className="box-border leading-4">
-        <div className=" md:min-w-[768px] m-auto px-[35px] md:px-[25px] xl:px-[0px] xl:w-[1140px] py-[100px]">
+        <div className=" md:min-w-[768px] m-auto px-[14px] md:px-[25px] xl:px-[0px] xl:w-[1140px] py-[100px]">
           <div className="mb-[50px] without">
             <img
               className="mb-[19px]"
