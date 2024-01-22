@@ -21,7 +21,7 @@ const page = () => {
               <div className="px-[30px] pt-[50px] md:pt-[0px]">
                 <h1 className="mb-[40px] font-monoSpace text-[28px]">We are looking for Advisor</h1>
                 <p className=" mb-[14px] font-montserrat text-[#7d7d7d]">
-                  Love what we do? If you're interested in helping us protect
+                  Love what we do? If you are interested in helping us protect
                   journalism then please, express your interest at
                   gawrav@xcheck.org
                 </p>
