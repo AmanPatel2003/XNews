@@ -32,7 +32,7 @@ const page = () => {
           business days, reduced to writing and marked &quot;confidential&quot;. However,
           Confidential Information will not include any information that is or
           becomes known to the general public, which is already in the receiving
-          party's possession prior to disclosure by a party or which is
+          party&apos;s possession prior to disclosure by a party or which is
           independently developed by the receiving party without the use of
           Confidential Information.
         </p>
@@ -106,7 +106,7 @@ const page = () => {
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
           <b>&quot;Third Party&quot;</b> means any third party (i) to which You provide
           access to Your Account or (ii) for which You use the Service to
-          collect information on the third party's behalf.
+          collect information on the third party&apos;s behalf.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
           <b>&quot;Users&quot;</b> means users and/or visitors to Your Properties.
@@ -129,7 +129,7 @@ const page = () => {
           will be posted at Xcheck website. Unless otherwise stated, all fees
           are quoted in INR. Any outstanding balance becomes immediately due and
           payable upon termination of this Agreement and any collection expenses
-          (including attorneys' fees) incurred by XCheck will be included in the
+          (including attorneys&apos; fees) incurred by XCheck will be included in the
           amount owed, and may be charged to the credit card or other billing
           mechanism associated with Your Xcheck Account.
         </p>
@@ -146,7 +146,7 @@ const page = () => {
           use of Your accounts. You are solely responsible for any and all
           activities that occur under Your Account. You will notify XCheck
           immediately upon learning of any unauthorized use of Your Account or
-          any other breach of security. XCheck's (or its wholly-owned
+          any other breach of security. XCheck&apos;s (or its wholly-owned
           subsidiaries) support staff may, from time to time, log in to the
           Service under Your customer password in order to maintain or improve
           service, including to provide You assistance with technical or billing
@@ -160,7 +160,7 @@ const page = () => {
           grants You a limited, revocable, non-exclusive, non-sublicensable
           license to install, copy and use the XAMC and/or SDKs solely as
           necessary for You to use the Service on Your Properties or Third
-          Party's Properties; and (b) You may remotely access your data report
+          Party&apos;s Properties; and (b) You may remotely access your data report
           on XCheck Dashboard. You will not (and You will not allow any third
           party to) (i) copy, modify, adapt, translate or otherwise create
           derivative works of the Software or the Documentation; (ii) reverse
@@ -182,8 +182,8 @@ const page = () => {
           5. Confidentiality and Beta Features
         </subhead>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          Neither party will use or disclose the other party's Confidential
-          Information without the other's prior written consent except for the
+          Neither party will use or disclose the other party&apos;s Confidential
+          Information without the other&apos;s prior written consent except for the
           purpose of performing its obligations under this Agreement or if
           required by law, regulation or court order; in which case, the party
           being compelled to disclose Confidential Information will give the
@@ -205,18 +205,18 @@ const page = () => {
           XCheck and its wholly owned subsidiaries may retain and use, subject
           to the terms of its privacy policy, information collected in Your use
           of the Service. XCheck will not share Your Customer Data or any Third
-          Party's Customer Data with any third parties unless XCheck (i) has
-          Your consent for any Customer Data or any Third Party's consent for
-          the Third Party's Customer Data; (ii) concludes that it is required by
+          Party&apos;s Customer Data with any third parties unless XCheck (i) has
+          Your consent for any Customer Data or any Third Party&apos;s consent for
+          the Third Party&apos;s Customer Data; (ii) concludes that it is required by
           law or has a good faith belief that access, preservation or disclosure
           of Customer Data is reasonably necessary to protect the rights,
           property or safety of XCheck, its users or the public; or (iii)
           provides Customer Data in certain limited circumstances to third
-          parties to carry out tasks on XCheck's behalf (e.g., billing or data
+          parties to carry out tasks on XCheck&apos;s behalf (e.g., billing or data
           storage) with strict restrictions that prevent the data from being
           used or shared except as directed by XCheck. When this is done, it is
           subject to agreements that oblige those parties to process Customer
-          Data only on XCheck's instructions and in compliance with this
+          Data only on XCheck&apos;s instructions and in compliance with this
           Agreement and appropriate confidentiality and security measures.
         </p>
 
@@ -233,7 +233,7 @@ const page = () => {
           technology used to collect data. You must disclose the use of XCheck
           Analytics, and how it collects and processes data. This can be done by
           displaying a prominent link to the site &quot;How XCheck uses data when you
-          use our partners' sites or apps&quot;, or any other URL XCheck may provide
+          use our partners&apos; sites or apps&quot;, or any other URL XCheck may provide
           from time to time). You will use commercially reasonable efforts to
           ensure that a User is provided with clear and comprehensive
           information about, and consents to, the storing and accessing of
@@ -254,7 +254,7 @@ const page = () => {
           and suits brought against XCheck or any of its officers, directors,
           employees, agents or affiliates, and all related liabilities, damages,
           settlements, penalties, fines, costs or expenses (including,
-          reasonable attorneys' fees and other litigation expenses) incurred by
+          reasonable attorneys&apos; fees and other litigation expenses) incurred by
           XCheck or any of its officers, directors, employees, agents or
           affiliates, arising out of or relating to (i) Your breach of any term
           or condition of this Agreement, (ii) Your use of the Service, (iii)
@@ -281,9 +281,9 @@ const page = () => {
           (a) You are authorized to act on behalf of, and bind to this
           Agreement, the Third Party to all obligations that You have under this
           Agreement, (b) XCheck may share with the Third Party any Customer Data
-          that is specific to the Third Party's Properties, and (c) You will not
-          disclose Third Party's Customer Data to any other party without the
-          Third Party's consent.
+          that is specific to the Third Party&apos;s Properties, and (c) You will not
+          disclose Third Party&apos;s Customer Data to any other party without the
+          Third Party&apos;s consent.
         </p>
         <subhead className="text-xl leading-10">
           10. DISCLAIMER OF WARRANTIES.
@@ -304,7 +304,7 @@ const page = () => {
           CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, EVEN IF XCheck OR ITS
           SUBSIDIARIES AND AFFILIATES HAVE BEEN ADVISED OF, KNEW OR SHOULD HAVE
           KNOWN THAT SUCH DAMAGES WERE POSSIBLE AND EVEN IF DIRECT DAMAGES DO
-          NOT SATISFY A REMEDY. XCheck'S (AND ITS WHOLLY OWNED SUBSIDIARIES’)
+          NOT SATISFY A REMEDY. XCheck&apos;S (AND ITS WHOLLY OWNED SUBSIDIARIES’)
           TOTAL CUMULATIVE LIABILITY TO YOU OR ANY OTHER PARTY FOR ANY LOSS OR
           DAMAGES RESULTING FROM CLAIMS, DEMANDS, OR ACTIONS ARISING OUT OF OR
           RELATING TO THIS AGREEMENT WILL NOT EXCEED $500 (USD).
@@ -317,7 +317,7 @@ const page = () => {
           Rights therein are, and will remain, the property of XCheck (and its
           wholly owned subsidiaries). All rights in and to the Software not
           expressly granted to You in this Agreement are reserved and retained
-          by XCheck and its licensors without restriction, including, XCheck's
+          by XCheck and its licensors without restriction, including, XCheck&apos;s
           (and its wholly owned subsidiaries’) right to sole ownership of the
           Software and Documentation. Without limiting the generality of the
           foregoing, You agree not to (and not to allow any third party to): (a)
@@ -406,7 +406,7 @@ const page = () => {
           Information Transactions Act do not apply to this Agreement. A waiver
           of any default is not a waiver of any subsequent default. You may not
           assign or otherwise transfer any of Your rights in this Agreement
-          without XCheck's prior written consent, and any such attempt is void.
+          without XCheck&apos;s prior written consent, and any such attempt is void.
           The relationship between XCheck and You is not one of a legal
           partnership relationship, but is one of independent contractors. This
           Agreement will be binding upon and inure to the benefit of the
