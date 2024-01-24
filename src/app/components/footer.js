@@ -10,9 +10,11 @@ import { IoMdMail } from "react-icons/io";
 const Footer = () => (
   <>
     <div className="">
-      <div className="bg-[#000000E6]  w-full py-16  px-[14px]  md:px-[0px] ">
-        <div className="md:flex justify-between  md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto ">
-          <div className=" md:w-[33%] pr-[25px] text-justify ">
+      <div className="bg-[#000000E6]  w-full py-16  px-[14px]  lg:px-[0px] ">
+        <div
+          className="lg:flex justify-between  lg:px-[25px] xl:px-[0px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto "
+        >
+          <div className=" lg:w-[33%] pr-[25px] text-justify ">
             <div className="">
               <a href="/" className="">
                 <img src="/xcheck-white.png" alt="" className="h-6" />
@@ -47,7 +49,7 @@ const Footer = () => (
               </a>
             </div>
           </div>
-          <div className="md:w-[65%] text-sm sm:flex justify-between mt-[40px] md:mt-[0px] font-monoSpace">
+          <div className="lg:w-[65%] text-sm sm:flex justify-between mt-[40px] lg:mt-[0px] font-monoSpace">
             <div className="sm:w-[50%] flex justify-around">
               <div className="w-[45%]   ">
                 <div className="text-[#FFFFFFCC] flex flex-col">
@@ -152,7 +154,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="bg-[#000] h-16"></div>
+   
     </div>
   </>
 );

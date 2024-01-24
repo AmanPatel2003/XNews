@@ -63,9 +63,9 @@ const Header = () => {
 
   return (
     <>
-      <nav className="fixed top-0 box-border left-0 w-full transition-all duration-300 bg-white shadow-md font-monoSpace ">
+      <nav className="fixed top-0 box-border left-0 w-full transition-all duration-300 bg-white shadow-md font-monoSpace z-10">
         <div
-          className={`flex justify-between items-center px-[14px] md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto  ${
+          className={`flex justify-between items-center px-[14px] sm:px-0  xl:px-[0px]  xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto  ${
             scrolling ? "py-[10px]" : "py-[20px]"
           }`}
         >
@@ -76,90 +76,90 @@ const Header = () => {
             <div className=" hidden lg:block">
               <ul className="flex h-[25px] ">
                 <li
-                  className=" flex items-center mx-[25px]  "
+                  className=" flex items-center px-[25px w-[150px] "
                   onMouseEnter={handleMouseEnter1}
                   onMouseLeave={handleMouseLeave1}
                 >
-                  HOW IT WORKS?
+                  <span className="hover:text-[#4df715] ml-4"> HOW IT WORKS?</span>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen1 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[165px]"
+                      className="absolute bg-white  p-4 shadow-md mt-[165px] w-[150px] "
                       onMouseLeave={handleMouseLeave11}
                     >
                       <li className="">
                         <a
-                          href="https://google.com/"
-                          className="block py-2"
+                          href="/"
+                          className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
                             setDropdownOpen1(false);
                           }}
                         >
-                          Option 1
+                          WHY TRUST ?
+                        </a>
+                      </li>
+                      <li className="">
+                        <a
+                          href="/xchecklabel"
+                          className="block py-2 hover:text-[#4df715]"
+                          onClick={(e) => {
+                            setDropdownOpen1(false);
+                          }}
+                        >
+                          XCHECK LABEL
                         </a>
                       </li>
                       <li className="">
                         <a
                           href="#"
-                          className="block py-2"
+                          className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
                             setDropdownOpen1(false);
                           }}
                         >
-                          Option 2
-                        </a>
-                      </li>
-                      <li className="">
-                        <a
-                          href="#"
-                          className="block py-2"
-                          onClick={(e) => {
-                            setDropdownOpen1(false);
-                          }}
-                        >
-                          Option 3
+                          F&Q
                         </a>
                       </li>
                     </ul>
                   )}
                 </li>
                 <li
-                  className=" flex items-center mx-[25px]"
+                  className=" flex items-center px-[25px w-[150px] justify-center"
                   onMouseEnter={handleMouseEnter2}
                   onMouseLeave={handleMouseLeave2}
                 >
-                  HOW IT WORKS?
+                  <p className="hover:text-[#4df715]  "> ABOUT</p>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen2 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[165px]"
+                      className="absolute bg-white  p-4 shadow-md mt-[125px] w-[150px]"
                       onMouseLeave={handleMouseLeave22}
                     >
                       <li className="">
                         <a
-                          href="https://google.com/"
-                          className="block py-2"
+                          href="/mission"
+                          className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
                             setDropdownOpen2(false);
                           }}
                         >
-                          Option 1
+                          MISSION
                         </a>
                       </li>
                       <li className="">
                         <a
-                          href="#"
-                          className="block py-2"
+                          href="/team"
+                          className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
                             setDropdownOpen2(false);
                           }}
                         >
-                          Option 2
+                          PEOPLE
                         </a>
                       </li>
-                      <li className="">
+                      {/* <li className="">
                         <a
                           href="#"
                           className="block py-2"
@@ -169,46 +169,46 @@ const Header = () => {
                         >
                           Option 3
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   )}
                 </li>
                 <li
-                  className=" flex items-center mx-[25px]"
+                  className=" flex items-center px-[25px w-[150px] justify-center "
                   onMouseEnter={handleMouseEnter3}
                   onMouseLeave={handleMouseLeave3}
                 >
-                  HOW IT WORKS?
+                  <p className="hover:text-[#4df715] text-center"> PARTNERS</p>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen3 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md  mt-[160px]"
+                      className="absolute bg-white  p-4 shadow-md  mt-[125px] w-[150px]"
                       onMouseLeave={handleMouseLeave33}
                     >
                       <li className="">
                         <a
-                          href="https://google.com/"
-                          className="block py-2"
+                          href="/news-publisher"
+                          className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
                             setDropdownOpen3(false);
                           }}
                         >
-                          Option 1
+                          PUBLISHER
                         </a>
                       </li>
                       <li className="">
                         <a
-                          href="#"
-                          className="block py-2"
+                          href="/news-agency"
+                          className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
                             setDropdownOpen3(false);
                           }}
                         >
-                          Option 2
+                          NEWS AGENCY
                         </a>
                       </li>
-                      <li className="">
+                      {/* <li className="">
                         <a
                           href="#"
                           className="block py-2"
@@ -218,23 +218,27 @@ const Header = () => {
                         >
                           Option 3
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   )}
                 </li>
 
                 <li className="">
-                  <a href="" className="px-[20px] border-2 p-[16px]">
-                    HOW IT WORKS
+                  <a
+                    href=""
+                    className="px-[20px] hover:bg-black hover:text-white border border-black p-[16px]"
+                  >
+                    SCHEDULE DEMO
                   </a>
                 </li>
               </ul>
             </div>
             <div className="lg:hidden">
               <button className="text-4xl flex items-center ">
-                <RxHamburgerMenu  />
+                <RxHamburgerMenu />
               </button>
             </div>
+            <div className=""></div>
           </div>
         </div>
       </nav>

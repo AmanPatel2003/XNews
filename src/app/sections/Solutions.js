@@ -7,7 +7,9 @@ const Solutions = () => {
   return (
     <>
       <div className="">
-        <div className=" px-[14px] md:px-[25px] xl:px-[0px] xl:w-[1140px] m-auto py-[100px] ">
+        <div
+          className=" px-[14px] md:px-[25px] xl:px-[0px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto py-[100px] "
+        >
           <div className="mb-[50px]">
             <img
               className="mb-[19px]"
