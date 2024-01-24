@@ -7,10 +7,10 @@ const page = () => {
         <h1 className="text-3xl font-semibold mb-[7px]">Terms of Service</h1>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
           These XCheck Terms of Service (this <b>&quot;Agreement&quot;</b>) are entered
-          into by XCheck LLC ("XCheck") and the entity executing this Agreement
+          into by XCheck LLC (&quot;XCheck&quot;) and the entity executing this Agreement
           (<b>&quot;You&quot;</b>). This Agreement governs Your use of the standard XCheck
           Analytics (the
-          <b>&quot;Service&quot;</b>). BY CLICKING THE "I ACCEPT" BUTTON, COMPLETING THE
+          <b>&quot;Service&quot;</b>). BY CLICKING THE &quot;I ACCEPT&quot; BUTTON, COMPLETING THE
           REGISTRATION PROCESS, OR USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU
           HAVE REVIEWED AND ACCEPT THIS AGREEMENT AND ARE AUTHORIZED TO ACT ON
           BEHALF OF, AND BIND TO THIS AGREEMENT, THE OWNER OF THIS ACCOUNT. In
@@ -20,7 +20,7 @@ const page = () => {
         <subhead className="text-xl leading-10">1. Definitions</subhead>
 
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b> "Account&quot;</b> refers to the account for the Service. All Profiles,
+          <b> &quot;Account&quot;</b> refers to the account for the Service. All Profiles,
           websites, web pages (as applicable) linked to a single Property will
           have their Hits aggregated before determining the charge for the
           Service/Rights for that Property.
@@ -28,8 +28,8 @@ const page = () => {
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
           <b>&quot;Confidential Information&quot;</b> includes any proprietary data and
           any other information disclosed by one party to the other in writing
-          and marked "confidential" or disclosed orally and, within five
-          business days, reduced to writing and marked "confidential". However,
+          and marked &quot;confidential&quot; or disclosed orally and, within five
+          business days, reduced to writing and marked &quot;confidential&quot;. However,
           Confidential Information will not include any information that is or
           becomes known to the general public, which is already in the receiving
           party's possession prior to disclosure by a party or which is
@@ -37,13 +37,13 @@ const page = () => {
           Confidential Information.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>&quot;Customer Data&quot;</b> or "XCheck Analytics Data" means the data you
+          <b>&quot;Customer Data&quot;</b> or &quot;XCheck Analytics Data&quot; means the data you
           collect, process or store using the Service concerning the
           characteristics and activities of Users.
         </p>
 
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b> "Documentation&quot;</b> means any accompanying documentation made
+          <b> &quot;Documentation&quot;</b> means any accompanying documentation made
           available to You by XCheck for use with the Processing Software,
           including any documentation available online.
         </p>
@@ -61,7 +61,7 @@ const page = () => {
           and mechanisms made available by the Service to You).
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b> "Platform Home&quot;</b> means the user interface through which You can
+          <b> &quot;Platform Home&quot;</b> means the user interface through which You can
           access certain XCheck Marketing Platform-level functionality.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
@@ -101,7 +101,7 @@ const page = () => {
           upgrades provided to You.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          "Software" means the Processing Software, XAMC and/or SDKs.
+          &quot;Software&quot; means the Processing Software, XAMC and/or SDKs.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
           <b>&quot;Third Party&quot;</b> means any third party (i) to which You provide
@@ -112,8 +112,8 @@ const page = () => {
           <b>&quot;Users&quot;</b> means users and/or visitors to Your Properties.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          The words <b>&quot;include&quot;</b> and <b>&quot;including&quot;</b> mean "including but
-          not limited to."
+          The words <b>&quot;include&quot;</b> and <b>&quot;including&quot;</b> mean &quot;including but
+          not limited to.&quot;
         </p>
 
         <subhead className="text-xl leading-10">2. Fees and Service</subhead>
@@ -189,7 +189,7 @@ const page = () => {
           being compelled to disclose Confidential Information will give the
           other party as much notice as is reasonably practicable prior to
           disclosing the Confidential Information. Certain Service features are
-          identified as "Alpha," "Beta," "Experiment," (either within the
+          identified as &quot;Alpha,&quot; &quot;Beta,&quot; &quot;Experiment,&quot; (either within the
           Service or elsewhere by XCheck) or as otherwise unsupported or
           confidential (collectively,
           <b>&quot;Beta Features&quot;</b>). You may not disclose any information from
@@ -232,8 +232,8 @@ const page = () => {
           Advertising Identifier or Advertising Identifier for iOS) or similar
           technology used to collect data. You must disclose the use of XCheck
           Analytics, and how it collects and processes data. This can be done by
-          displaying a prominent link to the site "How XCheck uses data when you
-          use our partners' sites or apps", or any other URL XCheck may provide
+          displaying a prominent link to the site &quot;How XCheck uses data when you
+          use our partners' sites or apps&quot;, or any other URL XCheck may provide
           from time to time). You will use commercially reasonable efforts to
           ensure that a User is provided with clear and comprehensive
           information about, and consents to, the storing and accessing of
@@ -243,7 +243,7 @@ const page = () => {
           not circumvent any privacy features (e.g., an opt-out) that are part
           of the Service. You will comply with all applicable XCheck Analytics
           policies located at Privacy Policy (or such other URL as XCheck may
-          provide) as modified from time to time (the{" "}
+          provide) as modified from time to time (the
           <b>&quot;XCheck Analytics Policies&quot;</b>).
         </p>
         <subhead className="text-xl leading-10">8. Indemnification.</subhead>
