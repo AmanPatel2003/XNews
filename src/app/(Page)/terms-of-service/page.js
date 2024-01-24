@@ -6,11 +6,11 @@ const page = () => {
       <div className="mt-[75px] pt-[45px]  px-[25px]  sm:px-0 sm:w-[500px] md:w-[600px] lg:w-[700px] xl:w-[900px] m-auto">
         <h1 className="text-3xl font-semibold mb-[7px]">Terms of Service</h1>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          These XCheck Terms of Service (this <b>"Agreement"</b>) are entered
+          These XCheck Terms of Service (this <b>&quot;Agreement&quot;</b>) are entered
           into by XCheck LLC ("XCheck") and the entity executing this Agreement
-          (<b>"You"</b>). This Agreement governs Your use of the standard XCheck
+          (<b>&quot;You&quot;</b>). This Agreement governs Your use of the standard XCheck
           Analytics (the
-          <b>"Service"</b>). BY CLICKING THE "I ACCEPT" BUTTON, COMPLETING THE
+          <b>&quot;Service&quot;</b>). BY CLICKING THE "I ACCEPT" BUTTON, COMPLETING THE
           REGISTRATION PROCESS, OR USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU
           HAVE REVIEWED AND ACCEPT THIS AGREEMENT AND ARE AUTHORIZED TO ACT ON
           BEHALF OF, AND BIND TO THIS AGREEMENT, THE OWNER OF THIS ACCOUNT. In
@@ -20,13 +20,13 @@ const page = () => {
         <subhead className="text-xl leading-10">1. Definitions</subhead>
 
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b> "Account"</b> refers to the account for the Service. All Profiles,
+          <b> "Account&quot;</b> refers to the account for the Service. All Profiles,
           websites, web pages (as applicable) linked to a single Property will
           have their Hits aggregated before determining the charge for the
           Service/Rights for that Property.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Confidential Information"</b> includes any proprietary data and
+          <b>&quot;Confidential Information&quot;</b> includes any proprietary data and
           any other information disclosed by one party to the other in writing
           and marked "confidential" or disclosed orally and, within five
           business days, reduced to writing and marked "confidential". However,
@@ -37,23 +37,23 @@ const page = () => {
           Confidential Information.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Customer Data"</b> or "XCheck Analytics Data" means the data you
+          <b>&quot;Customer Data&quot;</b> or "XCheck Analytics Data" means the data you
           collect, process or store using the Service concerning the
           characteristics and activities of Users.
         </p>
 
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b> "Documentation"</b> means any accompanying documentation made
+          <b> "Documentation&quot;</b> means any accompanying documentation made
           available to You by XCheck for use with the Processing Software,
           including any documentation available online.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"XAMC"</b> means the XCheck Analytics Measurement Code, which is
+          <b>&quot;XAMC&quot;</b> means the XCheck Analytics Measurement Code, which is
           installed on a Property for the purpose of collecting Customer Data,
           together with any fixes, updates and upgrades provided to You.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Hit"</b> means a collection of interactions that results in data
+          <b>&quot;Hit&quot;</b> means a collection of interactions that results in data
           being sent to the Service and processed. Examples of Hits may include
           page view hits and news hits. A Hit can be a call to the Service by
           various libraries, but does not have to be so (e.g., a Hit can be
@@ -61,35 +61,35 @@ const page = () => {
           and mechanisms made available by the Service to You).
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b> "Platform Home"</b> means the user interface through which You can
+          <b> "Platform Home&quot;</b> means the user interface through which You can
           access certain XCheck Marketing Platform-level functionality.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Processing Software"</b> means the XCheck Analytics server-side
+          <b>&quot;Processing Software&quot;</b> means the XCheck Analytics server-side
           software and any upgrades, which analyzes the Customer Data and
           generates the Reports.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Profile"</b> means the collection of settings that together
+          <b>&quot;Profile&quot;</b> means the collection of settings that together
           determine the information to be included in, or excluded from, a
           particular Report. For example, a Profile could be established to view
           a small portion of a web site as a unique Report.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Property"</b> means any web page, application, other property or
+          <b>&quot;Property&quot;</b> means any web page, application, other property or
           resource under Your control that sends data to XCheck Analytics
           Engine.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Privacy Policy"</b> means the privacy policy on a Property.
+          <b>&quot;Privacy Policy&quot;</b> means the privacy policy on a Property.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Report"</b> means the resulting analysis shown at Xcheck dashboard
+          <b>&quot;Report&quot;</b> means the resulting analysis shown at Xcheck dashboard
           some of which may include analysis for a Profile, Website, Web page or
           news.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Servers"</b> means the cloud server managed by Xcheck with third
+          <b>&quot;Servers&quot;</b> means the cloud server managed by Xcheck with third
           party service provider like Amazon Web Services, Digital Ocean,Google
           Cloud Platform or Azure on which the Processing Software and Customer
           Data are stored.
@@ -104,15 +104,15 @@ const page = () => {
           "Software" means the Processing Software, XAMC and/or SDKs.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Third Party"</b> means any third party (i) to which You provide
+          <b>&quot;Third Party&quot;</b> means any third party (i) to which You provide
           access to Your Account or (ii) for which You use the Service to
           collect information on the third party's behalf.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          <b>"Users"</b> means users and/or visitors to Your Properties.
+          <b>&quot;Users&quot;</b> means users and/or visitors to Your Properties.
         </p>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
-          The words <b>"include"</b> and <b>"including"</b> mean "including but
+          The words <b>&quot;include&quot;</b> and <b>&quot;including&quot;</b> mean "including but
           not limited to."
         </p>
 
@@ -192,7 +192,7 @@ const page = () => {
           identified as "Alpha," "Beta," "Experiment," (either within the
           Service or elsewhere by XCheck) or as otherwise unsupported or
           confidential (collectively,
-          <b>"Beta Features"</b>). You may not disclose any information from
+          <b>&quot;Beta Features&quot;</b>). You may not disclose any information from
           Beta Features or the terms or existence of any non-public Beta
           Features. XCheck will have no liability arising out of or related to
           any Beta Features.
@@ -244,7 +244,7 @@ const page = () => {
           of the Service. You will comply with all applicable XCheck Analytics
           policies located at Privacy Policy (or such other URL as XCheck may
           provide) as modified from time to time (the{" "}
-          <b>"XCheck Analytics Policies"</b>).
+          <b>&quot;XCheck Analytics Policies&quot;</b>).
         </p>
         <subhead className="text-xl leading-10">8. Indemnification.</subhead>
         <p className="text-[#7b7b7b] text-sm leading-7 mb-[14px]">
