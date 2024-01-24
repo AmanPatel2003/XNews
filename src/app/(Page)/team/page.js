@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
-const page = () => {
+const Page = () => {
   const [Team1, setTeam1] = useState(false);
   const [Team2, setTeam2] = useState(false);
   const [Team3, setTeam3] = useState(false);
@@ -385,4 +385,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
