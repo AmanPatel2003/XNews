@@ -1,4 +1,4 @@
-// generate-sitemap.js
+ // generate-sitemap.js
 
 const { SitemapStream, streamToPromise } = require("sitemap");
 const { createGzip } = require("zlib");
