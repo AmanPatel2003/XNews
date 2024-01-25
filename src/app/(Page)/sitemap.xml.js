@@ -10,7 +10,15 @@ const generateSitemap = () => {
         <lastmod>2024-01-25</lastmod>
       </url>
       <url>
-        <loc>https://xcheck-ten.vercel.app/mission/loc>
+        <loc>https://xcheck-ten.vercel.app/mission</loc>
+        <lastmod>2024-01-25</lastmod>
+      </url>
+      <url>
+        <loc>https://xcheck-ten.vercel.app/xchecklabel</loc>
+        <lastmod>2024-01-25</lastmod>
+      </url>
+      <url>
+        <loc>https://xcheck-ten.vercel.app/news-publisher</loc>
         <lastmod>2024-01-25</lastmod>
       </url>
       <!-- Add more URLs as needed -->
