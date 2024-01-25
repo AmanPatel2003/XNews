@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Terms of service page",
+  description: "Terms of service page description",
+};
+
 const page = () => {
   return (
     <div>

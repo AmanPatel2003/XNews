@@ -1,6 +1,11 @@
 import React from "react";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Advisory page",
+  description: "Advisory page description",
+};
+
 const page = () => {
   return (
     <>

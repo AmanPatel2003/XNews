@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Pr-agency page",
+  description: "Pr-agency page description",
+};
+
 const page = () => {
   return (
     <>

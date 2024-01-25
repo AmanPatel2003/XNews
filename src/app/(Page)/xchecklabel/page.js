@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Xchecklabel page",
+  description: "Xchecklabel page description",
+};
+
 const page = () => {
   return (
     <>
