@@ -10,6 +10,7 @@ export const metadata = {
 };
 
 const Page = () => {
+    
   const [Team1, setTeam1] = useState(false);
   const [Team2, setTeam2] = useState(false);
   const [Team3, setTeam3] = useState(false);
