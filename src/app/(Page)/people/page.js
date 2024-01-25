@@ -9,7 +9,6 @@ export const metadata = {
   description: "People page description",
 };
 
-
 const Page = () => {
   const [Team1, setTeam1] = useState(false);
   const [Team2, setTeam2] = useState(false);
@@ -52,9 +51,7 @@ const Page = () => {
     <>
       <main>
         <div className="bg-[#f6f6f6]">
-          <section
-            className="mt-[75px] pt-[75px] px-[20px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto"
-          >
+          <section className="mt-[75px] pt-[75px] px-[20px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto">
             <div className="mb-[50px]">
               <h2 className="text-4xl font-monoSpace">Team</h2>
             </div>
@@ -391,6 +388,4 @@ const Page = () => {
   );
 };
 
-
 export default Page;
-
