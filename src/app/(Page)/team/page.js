@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
+// import { r } from "react-icons/fa";
 
 export const metadata = {
   title: "People page",
