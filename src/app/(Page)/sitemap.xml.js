@@ -4,7 +4,7 @@ const generateSitemap = () => {
   // Your logic to generate the sitemap XML content
   const sitemapContent = `
     <?xml version="1.0" encoding="UTF-8"?>
-    <urlset xmlns="https://xcheck-ten.vercel.app/">
+    <urlset xmlns="https://xcheck-ten.vercel.app">
       <url>
         <loc>https://xcheck-ten.vercel.app/about</loc>
         <lastmod>2024-01-25</lastmod>
