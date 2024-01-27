@@ -1,8 +1,10 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
+
 
 const Header = () => {
   const [isDropdownOpen1, setDropdownOpen1] = useState(false);
@@ -10,6 +12,7 @@ const Header = () => {
   const [isDropdownOpen3, setDropdownOpen3] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const dropdownRef = useRef(null);
+  const [hamburgerMenu, setHamburgerMenu] = useState(false)
 
   const handleMouseEnter1 = () => {
     setDropdownOpen1(true);
@@ -62,6 +65,10 @@ const Header = () => {
     };
   }, []);
 
+  const showSidebar=()=>{
+setHamburgerMenu(!hamburgerMenu)
+  }
+
   return (
     <>
       <nav className="fixed top-0 box-border left-0 w-full transition-all duration-300 bg-white shadow-md font-monoSpace z-10">
@@ -71,22 +78,28 @@ const Header = () => {
           }`}
         >
           <Link href="/" className="">
-            <img src="/images/xcheck.png" alt="" className="h-[35px]" />
+            <Image src="/images/xcheck.png" alt="" height={100} width={190} />
           </Link>
-          <div className="text-[13px] font-light">
+          <div className="text-[13px] font-light  ">
             <div className=" hidden lg:block">
-              <ul className="flex h-[25px] ">
+              <ul className="flex h-[25px] w-[600px] justify-between ">
                 <li
                   className=" flex items-center  w-[150px "
                   onMouseEnter={handleMouseEnter1}
                   onMouseLeave={handleMouseLeave1}
                 >
-                  <span className="hover:text-[#4df715] ml-4"> HOW IT WORKS?</span>
+                  <span className="hover:text-[#4df715] ml-4 p-4">
+                    HOW IT WORKS?
+                  </span>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen1 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[165px] w-[150px "
+                      className={`absolute bg-white ml-[20px]  p-4 shadow-md mt-[190px] w-[150px ${
+                        isDropdownOpen1
+                          ? "hover:border-t-2 border-[#4df715]"
+                          : ""
+                      } `}
                       onMouseLeave={handleMouseLeave11}
                     >
                       <li className="">
@@ -130,12 +143,16 @@ const Header = () => {
                   onMouseEnter={handleMouseEnter2}
                   onMouseLeave={handleMouseLeave2}
                 >
-                  <p className="hover:text-[#4df715] ml-4  "> ABOUT</p>
+                  <p className="hover:text-[#4df715] ml-4  py-4"> ABOUT</p>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen2 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[125px] w-[150px"
+                      className={`absolute bg-white  p-4 shadow-md mt-[145px] w-[150px ${
+                        isDropdownOpen2
+                          ? "hover:border-t-2 border-[#4df715]"
+                          : ""
+                      }`}
                       onMouseLeave={handleMouseLeave22}
                     >
                       <li className="">
@@ -160,17 +177,6 @@ const Header = () => {
                           PEOPLE
                         </Link>
                       </li>
-                      {/* <li className="">
-                        <Link
-                          href="#"
-                          className="block py-2"
-                          onClick={(e) => {
-                            setDropdownOpen2(false);
-                          }}
-                        >
-                          Option 3
-                        </Link>
-                      </li> */}
                     </ul>
                   )}
                 </li>
@@ -179,12 +185,18 @@ const Header = () => {
                   onMouseEnter={handleMouseEnter3}
                   onMouseLeave={handleMouseLeave3}
                 >
-                  <p className="hover:text-[#4df715] text-center ml-4"> PARTNERS</p>
+                  <p className="hover:text-[#4df715] text-center ml-4 py-4">
+                    PARTNERS
+                  </p>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen3 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md  mt-[125px] w-[150px"
+                      className={`absolute bg-white  p-4 shadow-md  mt-[150px] w-[150px ${
+                        isDropdownOpen3
+                          ? "hover:border-t-2 border-[#4df715]"
+                          : ""
+                      }`}
                       onMouseLeave={handleMouseLeave33}
                     >
                       <li className="">
@@ -209,25 +221,14 @@ const Header = () => {
                           NEWS AGENCY
                         </Link>
                       </li>
-                      {/* <li className="">
-                        <Link
-                          href="#"
-                          className="block py-2"
-                          onClick={(e) => {
-                            setDropdownOpen3(false);
-                          }}
-                        >
-                          Option 3
-                        </Link>
-                      </li> */}
                     </ul>
                   )}
                 </li>
 
-                <li className="">
+                <li className="mt-[3px] ml-[">
                   <Link
                     href=""
-                    className="px-[20px] hover:bg-black hover:text-white border border-black p-[16px]"
+                    className="px-[20px] hover:bg-black hover:text-white border border-black py-[16px]"
                   >
                     SCHEDULE DEMO
                   </Link>
@@ -235,11 +236,169 @@ const Header = () => {
               </ul>
             </div>
             <div className="lg:hidden">
-              <button className="text-4xl flex items-center ">
+              <button className="text-4xl flex items-center text-[#4df715] " onClick={showSidebar}>
                 <RxHamburgerMenu />
               </button>
             </div>
-            <div className=""></div>
+            {hamburgerMenu &&
+            <div className="flex absolute lg:hidden w-[100vw]  left-0">
+              <div className="h-[100vh] w-[60%] bg-white">
+                <ul className="mt-[30px] ">
+                  <li
+                    className=" flex items-center  w-[150px "
+                    onMouseEnter={handleMouseEnter1}
+                    onMouseLeave={handleMouseLeave1}
+                  >
+                    <span className="hover:text-[#4df715] ml-4 p-4">
+                      HOW IT WORKS?
+                    </span>
+                    <IoIosArrowDown className="ml-2" />
+                    {isDropdownOpen1 && (
+                      <ul
+                        ref={dropdownRef}
+                        className={`absolute bg-white ml-[20px]  p-4 shadow-md mt-[190px] w-[150px ${
+                          isDropdownOpen1
+                            ? "hover:border-t-2 border-[#4df715]"
+                            : ""
+                        } `}
+                        onMouseLeave={handleMouseLeave11}
+                      >
+                        <li className="">
+                          <Link
+                            href="/"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen1(false);
+                            }}
+                          >
+                            WHY TRUST ?
+                          </Link>
+                        </li>
+                        <li className="">
+                          <Link
+                            href="/xchecklabel"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen1(false);
+                            }}
+                          >
+                            XCHECK LABEL
+                          </Link>
+                        </li>
+                        <li className="">
+                          <Link
+                            href="#"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen1(false);
+                            }}
+                          >
+                            F&Q
+                          </Link>
+                        </li>
+                      </ul>
+                    )}
+                  </li>
+                  <li
+                    className=" flex items-center px-[25px w-[150px justify-cente"
+                    onMouseEnter={handleMouseEnter2}
+                    onMouseLeave={handleMouseLeave2}
+                  >
+                    <p className="hover:text-[#4df715] ml-4  p-4"> ABOUT</p>
+                    <IoIosArrowDown className="ml-2" />
+                    {isDropdownOpen2 && (
+                      <ul
+                        ref={dropdownRef}
+                        className={`absolute bg-white  p-4 shadow-md mt-[145px] w-[150px ${
+                          isDropdownOpen2
+                            ? "hover:border-t-2 border-[#4df715]"
+                            : ""
+                        }`}
+                        onMouseLeave={handleMouseLeave22}
+                      >
+                        <li className="">
+                          <Link
+                            href="/mission"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen2(false);
+                            }}
+                          >
+                            MISSION
+                          </Link>
+                        </li>
+                        <li className="">
+                          <Link
+                            href="/team"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen2(false);
+                            }}
+                          >
+                            PEOPLE
+                          </Link>
+                        </li>
+                      </ul>
+                    )}
+                  </li>
+                  <li
+                    className=" flex items-center px-[25px w-[150px justify-cente "
+                    onMouseEnter={handleMouseEnter3}
+                    onMouseLeave={handleMouseLeave3}
+                  >
+                    <p className="hover:text-[#4df715] text-center ml-4 p-4">
+                      PARTNERS
+                    </p>
+                    <IoIosArrowDown className="ml-2" />
+                    {isDropdownOpen3 && (
+                      <ul
+                        ref={dropdownRef}
+                        className={`absolute bg-white  p-4 shadow-md  mt-[150px] w-[150px ${
+                          isDropdownOpen3
+                            ? "hover:border-t-2 border-[#4df715]"
+                            : ""
+                        }`}
+                        onMouseLeave={handleMouseLeave33}
+                      >
+                        <li className="">
+                          <Link
+                            href="/news-publisher"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen3(false);
+                            }}
+                          >
+                            PUBLISHER
+                          </Link>
+                        </li>
+                        <li className="">
+                          <Link
+                            href="/news-agency"
+                            className="block py-2 hover:text-[#4df715]"
+                            onClick={(e) => {
+                              setDropdownOpen3(false);
+                            }}
+                          >
+                            NEWS AGENCY
+                          </Link>
+                        </li>
+                      </ul>
+                    )}
+                  </li>
+
+                  <li className="mt-[3px] p-4">
+                    <Link
+                      href=""
+                      className="px-[20px] hover:bg-black hover:text-white border border-black py-[16px]"
+                    >
+                      SCHEDULE DEMO
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className=" w-[40%] bg-gray-600 opacity-55"  onClick={showSidebar}></div>
+            </div>
+            }
           </div>
         </div>
       </nav>
