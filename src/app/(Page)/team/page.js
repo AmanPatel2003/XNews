@@ -4,10 +4,10 @@ import React, { useState } from "react";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 // import { r } from "react-icons/fa";
 
-export const metadata = {
-  title: "People page",
-  description: "People page description",
-};
+// export const metadata = {
+//   title: "People page",
+//   description: "People page description",
+// };
 
 const Page = () => {
 

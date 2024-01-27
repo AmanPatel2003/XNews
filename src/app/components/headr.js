@@ -257,7 +257,7 @@ setHamburgerMenu(!hamburgerMenu)
                       className=" flex items-center justify-between  w-[150px "
                       onClick={handleMouseEnter1}
                     >
-                      <p className="hover:text-[#4df715] ml-4 p-4">
+                      <p className="w-full hover:text-[#4df715] ml-4 p-4">
                         HOW IT WORKS?
                       </p>
                       <IoIosArrowDown className="ml-2" />
@@ -304,7 +304,7 @@ setHamburgerMenu(!hamburgerMenu)
                       className=" flex items-center px-[25px w-[150px justify-between"
                       onClick={handleMouseEnter2}
                     >
-                      <p className="hover:text-[#4df715] ml-4  p-4"> ABOUT</p>
+                      <p className="w-full hover:text-[#4df715] ml-4  p-4"> ABOUT</p>
                       <IoIosArrowDown className="ml-2" />
                       {isDropdownOpen2 && (
                         <ul
@@ -340,7 +340,7 @@ setHamburgerMenu(!hamburgerMenu)
                       className=" flex items-center px-[25px w-[150px justify-between "
                       onClick={handleMouseEnter3}
                     >
-                      <p className="hover:text-[#4df715] text-center ml-4 p-4">
+                      <p className="w-full hover:text-[#4df715]  ml-4 p-4">
                         PARTNERS
                       </p>
                       <IoIosArrowDown className="ml-2" />
