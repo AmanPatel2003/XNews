@@ -378,7 +378,7 @@ setHamburgerMenu(!hamburgerMenu)
                     <li className="mt-[30px] p-4">
                       <Link
                         href=""
-                        className="px-[20px] hover:bg-black hover:text-white border border-black py-[16px]"
+                        className="px-[20px] bg-black text-white border-2 border-[#4df715] py-[16px]"
                       >
                         SCHEDULE DEMO
                       </Link>
