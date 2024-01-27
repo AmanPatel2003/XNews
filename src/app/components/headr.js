@@ -378,7 +378,31 @@ setHamburgerMenu(!hamburgerMenu)
                     <li className="mt-[30px] p-4">
                       <Link
                         href=""
+                        className="px-[20px] bg-black text-white border border-black py-[16px]"
+                      >
+                        SCHEDULE DEMO
+                      </Link>
+                    </li>
+                    <li className="mt-[30px] p-4">
+                      <Link
+                        href=""
                         className="px-[20px] bg-black text-white border-2 border-[#4df715] py-[16px]"
+                      >
+                        SCHEDULE DEMO
+                      </Link>
+                    </li>
+                    <li className="mt-[30px] p-4">
+                      <Link
+                        href=""
+                        className="px-[20px] bg-black text-[#4df715] border-2 border-[#4df715] py-[16px]"
+                      >
+                        SCHEDULE DEMO
+                      </Link>
+                    </li>
+                    <li className="mt-[30px] p-4">
+                      <Link
+                        href=""
+                        className="px-[20px] text-sm  border-2 border-[#4df715] font-semibold text-[#4df715] py-[16px]"
                       >
                         SCHEDULE DEMO
                       </Link>
