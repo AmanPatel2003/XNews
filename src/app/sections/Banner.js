@@ -4,7 +4,7 @@ const Banner = () => (
   <>
     <section className="box-border ">
       <div className="mt-[75px]">
-        <div className="bg-banner_image bg-cover bg-center flex px-[14px] md:px-[25px] h-[70vh]  sm:h-screen align-middle items-center w-full sm:mt-[75px]">
+        <div className="bg-banner_image bg-cover bg-center flex px-[14px] md:px-[25px] h-[80vh]  sm:h-screen align-middle items-center w-full sm:mt-[75px]">
           <div
             className=" md:px-[25px] xl:px-[0px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] ml-[20px sm:ml-[40px sm:m-auto"
           >
