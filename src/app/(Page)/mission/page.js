@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div>
       <div className="mt-[75px]   ">
-        <section className="flex items-center px-[20px] md:px-0 py-[150px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto ">
+        <section className="flex items-center px-[20px] md:px-0 py-[50px] sm:py-[100px] lg:py-[150px] xl:w-[1140px] lg:w-[960px] md:w-[720px] sm:w-[540px] m-auto ">
           <div className="hero-container pageBannerPadding">
             <div className="lg:flex h-full ">
               <div className="lg:w-[55%] px-[15px]">
