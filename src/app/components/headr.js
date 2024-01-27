@@ -31,15 +31,7 @@ const Header = () => {
     setDropdownOpen3(!isDropdownOpen3);
   };
 
-  // const handleMouseLeave1 = (e) => {
-  //   setDropdownOpen1(false);
-  // };
-  // const handleMouseLeave2 = (e) => {
-  //   setDropdownOpen2(false);
-  // };
-  // const handleMouseLeave3 = (e) => {
-  //   setDropdownOpen3(false);
-  // };
+ 
   const handleMouseLeave11 = () => {
     setDropdownOpen1(false);
   };
@@ -263,8 +255,7 @@ setHamburgerMenu(!hamburgerMenu)
                   <ul className="mt-[30px] ">
                     <li
                       className=" flex items-center  w-[150px "
-                      // onMouseEnter={handleMouseEnter1}
-                      // onMouseLeave={handleMouseLeave1}
+                    
                       onClick={handleMouseEnter1}
                     >
                       <span className="hover:text-[#4df715] ml-4 p-4">
@@ -313,7 +304,7 @@ setHamburgerMenu(!hamburgerMenu)
                     <li
                       className=" flex items-center px-[25px w-[150px justify-cente"
                       onClick={handleMouseEnter2}
-                      // onMouseLeave={handleMouseLeave2}
+
                     >
                       <p className="hover:text-[#4df715] ml-4  p-4"> ABOUT</p>
                       <IoIosArrowDown className="ml-2" />
@@ -350,7 +341,7 @@ setHamburgerMenu(!hamburgerMenu)
                     <li
                       className=" flex items-center px-[25px w-[150px justify-cente "
                       onClick={handleMouseEnter3}
-                      // onMouseLeave={handleMouseLeave3}
+                    
                     >
                       <p className="hover:text-[#4df715] text-center ml-4 p-4">
                         PARTNERS
