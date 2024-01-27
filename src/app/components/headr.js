@@ -50,6 +50,13 @@ const Header = () => {
     setDropdownOpen1(false);
   };
 
+const closeAll=()=>{
+  setDropdownOpen1(false)
+  setDropdownOpen2(false)
+  setDropdownOpen3(false)
+  setHamburgerMenu(false)
+}
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -249,7 +256,7 @@ setHamburgerMenu(!hamburgerMenu)
                 <div className="relative h-[100vh] p-5 w-[70%] sm:w-[60%] md:w-[40%] bg-white">
                   <button
                     className="absolute right-5 top-5 text-3xl   text-[#4df715]"
-                    onClick={showSidebar}
+                    onClick={closeAll}
                   >
                     <RxCross2 className="font-bold " />
                   </button>
@@ -391,8 +398,8 @@ setHamburgerMenu(!hamburgerMenu)
                   </ul>
                 </div>
                 <div
-                  className=" w-[30%] sm:w-[40%] md:w-[60%] bg-gray-600 opacity-55"
-                  onClick={showSidebar}
+                  className=" w-[30%] sm:w-[40%] md:w-[60%] bg-gray-600 opacity-70"
+                  onClick={closeAll}
                 ></div>
               </div>
             )}
