@@ -252,15 +252,14 @@ setHamburgerMenu(!hamburgerMenu)
                   >
                     <RxCross2 className="font-bold " />
                   </button>
-                  <ul className="mt-[30px] ">
+                  <ul className="mt-[50px] w-[200px] ">
                     <li
-                      className=" flex items-center  w-[150px "
-                    
+                      className=" flex items-center justify-between  w-[150px "
                       onClick={handleMouseEnter1}
                     >
-                      <span className="hover:text-[#4df715] ml-4 p-4">
+                      <p className="hover:text-[#4df715] ml-4 p-4">
                         HOW IT WORKS?
-                      </span>
+                      </p>
                       <IoIosArrowDown className="ml-2" />
                       {isDropdownOpen1 && (
                         <ul
@@ -302,16 +301,15 @@ setHamburgerMenu(!hamburgerMenu)
                       )}
                     </li>
                     <li
-                      className=" flex items-center px-[25px w-[150px justify-cente"
+                      className=" flex items-center px-[25px w-[150px justify-between"
                       onClick={handleMouseEnter2}
-
                     >
                       <p className="hover:text-[#4df715] ml-4  p-4"> ABOUT</p>
                       <IoIosArrowDown className="ml-2" />
                       {isDropdownOpen2 && (
                         <ul
                           ref={dropdownRef}
-                          className={`absolute bg-white  p-4 shadow-md mt-[145px] w-[150px ${
+                          className={`absolute bg-white  ml-[20px]  p-4 shadow-md mt-[145px] w-[150px ${
                             isDropdownOpen2
                               ? "hover:border-t-2 border-[#4df715]"
                               : ""
@@ -339,9 +337,8 @@ setHamburgerMenu(!hamburgerMenu)
                       )}
                     </li>
                     <li
-                      className=" flex items-center px-[25px w-[150px justify-cente "
+                      className=" flex items-center px-[25px w-[150px justify-between "
                       onClick={handleMouseEnter3}
-                    
                     >
                       <p className="hover:text-[#4df715] text-center ml-4 p-4">
                         PARTNERS
@@ -350,7 +347,7 @@ setHamburgerMenu(!hamburgerMenu)
                       {isDropdownOpen3 && (
                         <ul
                           ref={dropdownRef}
-                          className={`absolute bg-white  p-4 shadow-md  mt-[150px] w-[150px ${
+                          className={`absolute bg-white  ml-[20px]  p-4 shadow-md  mt-[150px] w-[150px ${
                             isDropdownOpen3
                               ? "hover:border-t-2 border-[#4df715]"
                               : ""
@@ -378,7 +375,7 @@ setHamburgerMenu(!hamburgerMenu)
                       )}
                     </li>
 
-                    <li className="mt-[3px] p-4">
+                    <li className="mt-[30px] p-4">
                       <Link
                         href=""
                         className="px-[20px] hover:bg-black hover:text-white border border-black py-[16px]"
