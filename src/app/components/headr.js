@@ -244,8 +244,8 @@ setHamburgerMenu(!hamburgerMenu)
               </button>
             </div>
             {hamburgerMenu && (
-              <div className="flex absolute lg:hidden w-[100vw]  left-0">
-                <div className="h-[100vh] w-[60%] bg-white">
+              <div className="flex absolute  lg:hidden w-[100vw]  left-0 top-0">
+                <div className="h-[100vh] p-5 w-[70%] sm:w-[60%] md:w-[40%] bg-white">
                   <ul className="mt-[30px] ">
                     <li
                       className=" flex items-center  w-[150px "
@@ -401,7 +401,7 @@ setHamburgerMenu(!hamburgerMenu)
                   </ul>
                 </div>
                 <div
-                  className=" w-[40%] bg-gray-600 opacity-55"
+                  className=" w-[30%] sm:w-[40%] md:w-[60%] bg-gray-600 opacity-55"
                   onClick={showSidebar}
                 ></div>
               </div>
