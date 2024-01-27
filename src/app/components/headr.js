@@ -4,6 +4,7 @@ import Image from "next/image";
 import React, { useState, useRef, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { RxCross2 } from "react-icons/rx";
 
 
 const Header = () => {
@@ -245,7 +246,13 @@ setHamburgerMenu(!hamburgerMenu)
             </div>
             {hamburgerMenu && (
               <div className="flex absolute  lg:hidden w-[100vw]  left-0 top-0">
-                <div className="h-[100vh] p-5 w-[70%] sm:w-[60%] md:w-[40%] bg-white">
+                <div className="relative h-[100vh] p-5 w-[70%] sm:w-[60%] md:w-[40%] bg-white">
+                  <button
+                    className="absolute right-5 top-5 text-3xl   text-[#4df715]"
+                    onClick={showSidebar}
+                  >
+                    <RxCross2 className="font-bold " />
+                  </button>
                   <ul className="mt-[30px] ">
                     <li
                       className=" flex items-center  w-[150px "
@@ -265,15 +272,12 @@ setHamburgerMenu(!hamburgerMenu)
                               ? "hover:border-t-2 border-[#4df715]"
                               : ""
                           } `}
-                     
                         >
                           <li className="">
                             <Link
                               href="/"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen1(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               WHY TRUST ?
                             </Link>
@@ -282,9 +286,7 @@ setHamburgerMenu(!hamburgerMenu)
                             <Link
                               href="/xchecklabel"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen1(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               XCHECK LABEL
                             </Link>
@@ -293,9 +295,7 @@ setHamburgerMenu(!hamburgerMenu)
                             <Link
                               href="#"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen1(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               F&Q
                             </Link>
@@ -318,15 +318,12 @@ setHamburgerMenu(!hamburgerMenu)
                               ? "hover:border-t-2 border-[#4df715]"
                               : ""
                           }`}
-                       
                         >
                           <li className="">
                             <Link
                               href="/mission"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen2(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               MISSION
                             </Link>
@@ -335,9 +332,7 @@ setHamburgerMenu(!hamburgerMenu)
                             <Link
                               href="/team"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen2(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               PEOPLE
                             </Link>
@@ -362,15 +357,12 @@ setHamburgerMenu(!hamburgerMenu)
                               ? "hover:border-t-2 border-[#4df715]"
                               : ""
                           }`}
-                       
                         >
                           <li className="">
                             <Link
                               href="/news-publisher"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen3(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               PUBLISHER
                             </Link>
@@ -379,9 +371,7 @@ setHamburgerMenu(!hamburgerMenu)
                             <Link
                               href="/news-agency"
                               className="block py-2 hover:text-[#4df715]"
-                              onClick={(e) => {
-                                setDropdownOpen3(false);
-                              }}
+                              onClick={showSidebar}
                             >
                               NEWS AGENCY
                             </Link>
