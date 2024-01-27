@@ -1,12 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
-      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-      xmlns:xhtml="http://www.w3.org/1999/xhtml">
-      
-	<url>
-		<loc>https://xcheck-ten.vercel.app/</loc>
-		<lastmod>2024-01-26</lastmod>
-	</url>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://xcheck-ten.vercel.app/</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/about</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/mission</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/leadership</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/ethics</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/join</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/contact-us</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/journalist</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/news-agency</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/news-publisher</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/fact-checkers</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/government</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/pr-agency</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/brands</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/research</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/developers</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/technology</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/whitepaper</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/privacy-policy</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/terms-of-service</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/support</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/training</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/career</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/media</loc>
+	<lastmod>2024-01-25T16:03:17+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://xcheck-ten.vercel.app/%5C</loc>
+	<lastmod>2024-01-25T16:03:20+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
 </urlset>

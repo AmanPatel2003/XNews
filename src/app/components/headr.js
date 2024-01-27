@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -69,14 +70,14 @@ const Header = () => {
             scrolling ? "py-[10px]" : "py-[20px]"
           }`}
         >
-          <a href="/" className="">
+          <Link href="/" className="">
             <img src="/images/xcheck.png" alt="" className="h-[35px]" />
-          </a>
+          </Link>
           <div className="text-[13px] font-light">
             <div className=" hidden lg:block">
               <ul className="flex h-[25px] ">
                 <li
-                  className=" flex items-center px-[25px w-[150px] "
+                  className=" flex items-center  w-[150px "
                   onMouseEnter={handleMouseEnter1}
                   onMouseLeave={handleMouseLeave1}
                 >
@@ -85,11 +86,11 @@ const Header = () => {
                   {isDropdownOpen1 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[165px] w-[150px] "
+                      className="absolute bg-white  p-4 shadow-md mt-[165px] w-[150px "
                       onMouseLeave={handleMouseLeave11}
                     >
                       <li className="">
-                        <a
+                        <Link
                           href="/"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -97,10 +98,10 @@ const Header = () => {
                           }}
                         >
                           WHY TRUST ?
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a
+                        <Link
                           href="/xchecklabel"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -108,10 +109,10 @@ const Header = () => {
                           }}
                         >
                           XCHECK LABEL
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a
+                        <Link
                           href="#"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -119,26 +120,26 @@ const Header = () => {
                           }}
                         >
                           F&Q
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   )}
                 </li>
                 <li
-                  className=" flex items-center px-[25px w-[150px] justify-center"
+                  className=" flex items-center px-[25px w-[150px justify-cente"
                   onMouseEnter={handleMouseEnter2}
                   onMouseLeave={handleMouseLeave2}
                 >
-                  <p className="hover:text-[#4df715]  "> ABOUT</p>
+                  <p className="hover:text-[#4df715] ml-4  "> ABOUT</p>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen2 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md mt-[125px] w-[150px]"
+                      className="absolute bg-white  p-4 shadow-md mt-[125px] w-[150px"
                       onMouseLeave={handleMouseLeave22}
                     >
                       <li className="">
-                        <a
+                        <Link
                           href="/mission"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -146,10 +147,10 @@ const Header = () => {
                           }}
                         >
                           MISSION
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a
+                        <Link
                           href="/team"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -157,10 +158,10 @@ const Header = () => {
                           }}
                         >
                           PEOPLE
-                        </a>
+                        </Link>
                       </li>
                       {/* <li className="">
-                        <a
+                        <Link
                           href="#"
                           className="block py-2"
                           onClick={(e) => {
@@ -168,26 +169,26 @@ const Header = () => {
                           }}
                         >
                           Option 3
-                        </a>
+                        </Link>
                       </li> */}
                     </ul>
                   )}
                 </li>
                 <li
-                  className=" flex items-center px-[25px w-[150px] justify-center "
+                  className=" flex items-center px-[25px w-[150px justify-cente "
                   onMouseEnter={handleMouseEnter3}
                   onMouseLeave={handleMouseLeave3}
                 >
-                  <p className="hover:text-[#4df715] text-center"> PARTNERS</p>
+                  <p className="hover:text-[#4df715] text-center ml-4"> PARTNERS</p>
                   <IoIosArrowDown className="ml-2" />
                   {isDropdownOpen3 && (
                     <ul
                       ref={dropdownRef}
-                      className="absolute bg-white  p-4 shadow-md  mt-[125px] w-[150px]"
+                      className="absolute bg-white  p-4 shadow-md  mt-[125px] w-[150px"
                       onMouseLeave={handleMouseLeave33}
                     >
                       <li className="">
-                        <a
+                        <Link
                           href="/news-publisher"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -195,10 +196,10 @@ const Header = () => {
                           }}
                         >
                           PUBLISHER
-                        </a>
+                        </Link>
                       </li>
                       <li className="">
-                        <a
+                        <Link
                           href="/news-agency"
                           className="block py-2 hover:text-[#4df715]"
                           onClick={(e) => {
@@ -206,10 +207,10 @@ const Header = () => {
                           }}
                         >
                           NEWS AGENCY
-                        </a>
+                        </Link>
                       </li>
                       {/* <li className="">
-                        <a
+                        <Link
                           href="#"
                           className="block py-2"
                           onClick={(e) => {
@@ -217,19 +218,19 @@ const Header = () => {
                           }}
                         >
                           Option 3
-                        </a>
+                        </Link>
                       </li> */}
                     </ul>
                   )}
                 </li>
 
                 <li className="">
-                  <a
+                  <Link
                     href=""
                     className="px-[20px] hover:bg-black hover:text-white border border-black p-[16px]"
                   >
                     SCHEDULE DEMO
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
