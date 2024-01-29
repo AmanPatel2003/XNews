@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const metadata = {
   title: "Support page",
@@ -15,6 +15,6 @@ const page = () => {
       </div>
     </>
   );
-}
+};
 
-export default page
+export default page;
