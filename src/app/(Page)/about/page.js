@@ -13,17 +13,16 @@ export const metadata = {
     description: "Page Description for WhatsApp",
     url: "Page ka URL for WhatsApp",
     type: "website",
-    image: "/images.png",
-   
+    image: "/xchecklogo.png",
   },
   twitter: {
     card: "summary_large_image",
     site: "@YourTwitterHandle",
     title: "Aman on Twitter", // Custom title for Twitter
     description: "Twitter Description",
-    image: "/savetime.png",
+    image: "/xchecklogo.png",
   },
-}
+};
 
 const About = () => {
   return (
