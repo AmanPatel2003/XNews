@@ -6,14 +6,13 @@ import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross2 } from "react-icons/rx";
 
-
 const Header = () => {
   const [isDropdownOpen1, setDropdownOpen1] = useState(false);
   const [isDropdownOpen2, setDropdownOpen2] = useState(false);
   const [isDropdownOpen3, setDropdownOpen3] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const dropdownRef = useRef(null);
-  const [hamburgerMenu, setHamburgerMenu] = useState(false)
+  const [hamburgerMenu, setHamburgerMenu] = useState(false);
 
   const handleMouseEnter1 = () => {
     setDropdownOpen1(!isDropdownOpen1);
@@ -31,7 +30,6 @@ const Header = () => {
     setDropdownOpen3(!isDropdownOpen3);
   };
 
- 
   const handleMouseLeave11 = () => {
     setDropdownOpen1(false);
   };
@@ -42,12 +40,12 @@ const Header = () => {
     setDropdownOpen1(false);
   };
 
-const closeAll=()=>{
-  setDropdownOpen1(false)
-  setDropdownOpen2(false)
-  setDropdownOpen3(false)
-  setHamburgerMenu(false)
-}
+  const closeAll = () => {
+    setDropdownOpen1(false);
+    setDropdownOpen2(false);
+    setDropdownOpen3(false);
+    setHamburgerMenu(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,9 +63,9 @@ const closeAll=()=>{
     };
   }, []);
 
-  const showSidebar=()=>{
-setHamburgerMenu(!hamburgerMenu)
-  }
+  const showSidebar = () => {
+    setHamburgerMenu(!hamburgerMenu);
+  };
 
   return (
     <>
@@ -304,7 +302,10 @@ setHamburgerMenu(!hamburgerMenu)
                       className=" flex items-center px-[25px w-[150px justify-between"
                       onClick={handleMouseEnter2}
                     >
-                      <p className="w-full hover:text-[#4df715] ml-4  p-4"> ABOUT</p>
+                      <p className="w-full hover:text-[#4df715] ml-4  p-4">
+                        {" "}
+                        ABOUT
+                      </p>
                       <IoIosArrowDown className="ml-2" />
                       {isDropdownOpen2 && (
                         <ul
@@ -383,7 +384,7 @@ setHamburgerMenu(!hamburgerMenu)
                         SCHEDULE DEMO
                       </Link>
                     </li>
-                    <li className="mt-[30px] p-4">
+                    {/* <li className="mt-[30px] p-4">
                       <Link
                         href=""
                         className="px-[20px] bg-black text-white border-2 border-[#4df715] py-[16px]"
@@ -406,7 +407,7 @@ setHamburgerMenu(!hamburgerMenu)
                       >
                         SCHEDULE DEMO
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
                 <div
